@@ -3,6 +3,7 @@ import "./App.css";
 import { AnimatedLink } from "./components/Link/Animated.Link";
 import ArrowButton from "./components/Buttons/ArrowButton";
 import { LoadingButton } from "./components/Buttons/LoadingButton";
+import { PixelFallButton } from "./components/Buttons/PixelFallButton";
 
 function App() {
   return (
@@ -34,6 +35,11 @@ function App() {
           <div>
             <h2>Loading Button</h2>
             <LoadingButton size={100} strokeWidth={3} />
+          </div>
+
+          <div>
+            <h2>Pixel Fall Button</h2>
+            <PixelFallButton />
           </div>
         </div>
       </header>
